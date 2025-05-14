@@ -1,0 +1,51 @@
+# Ambiente virtual
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+
+# Configurações do Django
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+local_settings.py
+.env
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Testes
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Migrations (opcional ignorar)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Arquivos de compilação Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Docker (se usar)
+*.pid
+*.seed
+*.bak
+*.swp
+docker-compose.override.yml
