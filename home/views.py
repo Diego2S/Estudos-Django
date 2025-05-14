@@ -6,4 +6,7 @@ def home(request):
     return render(
         request,
         'home/index.html',
+        {
+            'text':'estamos na home'
+        }
         )
